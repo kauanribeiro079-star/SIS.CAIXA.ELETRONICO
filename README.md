@@ -29,12 +29,13 @@ python main.py
 O sistema irá apresentar o seguinte menu: 
 ```
 1 - Criar Conta
-2 - Depositar 
+2 - Depositar
 3 - Sacar
 4 - Saldo
-5 - Sair
+5 - Histórico
+0 - Sair
 ```
-PASSO 1: CRIAR UMA CONTA (Digite: 1)
+PASSO 1: CRIAR UMA CONTA (Digite: 1, informe o Nome, CPF e escolha o tipo da conta)
 ```
 Escolha: 1
 Nome: Kauan
@@ -121,18 +122,6 @@ banco/
 │
 ├── banco.py
 └── main.py
-```
----
-
-## EXEMPLO DE USABILIDADE DO SISTEMA
-
-```
-1 - Criar Conta
-2 - Depositar
-3 - Sacar
-4 - Saldo
-5 - Histórico
-0 - Sair
 ```
 
 ---
