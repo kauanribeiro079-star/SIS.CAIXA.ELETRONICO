@@ -18,6 +18,72 @@ O sistema funciona via terminal e permite a realização de operações bancári
 
 ---
 
+## COMO USAR O SISTEMA (EXEMPLO): 
+
+EXEMPLO DE UTILIZAÇÃO NO TERMINAL:
+
+O sistema irá apresentar o seguinte menu:
+```
+1 - Criar Conta
+2 - Depositar 
+3 - Sacar
+4 - Saldo
+5 - Sair
+```
+PASSO 1: CRIAR UMA CONTA 
+```
+Escolha: 1
+Nome: Kauan
+CPF: 123
+1 - CONTA CORRENTE | 2 - CONTA POUPANÇA: 1
+```
+Saída: 
+```
+Conta Criada!
+```
+PASSO 2: DEPOSITAR DINHEIRO
+```
+Escolha: 2 
+Conta: 1
+Valor: 500 
+```
+Saída: 
+```
+Depósito realizado! 
+```
+PASSO 3: SACAR DINHEIRO
+```
+Escolha: 3 
+Conta: 1 
+Valor: 200
+```
+Saída: 
+```
+Saque realizado (Conta Corrente)
+```
+PASSO 4: CONSULTAR SALDO
+```
+Escolha: 4
+Conta: 1
+```
+Saída: 
+```
+Saldo: R$300.00
+```
+PASSO 5: VISUALIZAR HISTÓRICO
+```
+Histórico de operações:
+- Depósito: R$500.00
+- Saque CC: R$200.00
+```
+
+OBSERVAÇÕES:
+* O número da conta é gerado automaticamente (1, 2, 3, ...)
+* Todas as operações são registradas no histórico
+* O sistema valida saldo antes de permitir o saque
+
+---
+
 ## OS CONCEITOS DE POO FORAM APLICADOS:
 
 * **Encapsulamento:** uso de atributos privados como `_saldo`
